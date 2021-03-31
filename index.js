@@ -36,3 +36,13 @@ let n=3
 let m=4
 let k=Math.sqrt(n*n+m*m)
 console.log(`k=${k}`) 
+let nFib=12
+// let step=1
+// for(step=1; step=12; nFib=nFib+nFib)
+let result=Math.pow(nFib, 12)
+console.log(result)
+let summa=2
+let persent=10
+let years=5
+let perepl=summa*persent/100*years
+console.log(`переплата за 5 лет составит =${perepl} млн.руб`)
