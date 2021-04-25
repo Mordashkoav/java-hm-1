@@ -1,6 +1,6 @@
-// домашка 4
+// // домашка 4
 
-// Создать объект с днями недели. Ключами в нем должны служить номера дней от начала недели (понедельник - 1-й и т.д.). Вывести текущий день недели.
+// // Создать объект с днями недели. Ключами в нем должны служить номера дней от начала недели (понедельник - 1-й и т.д.). Вывести текущий день недели.
 
 // let objWeek = {
 //     1: 'понедельник',
@@ -19,7 +19,7 @@
 // else {
 //     console.log(objWeek[today.getDate()])
 // }
-// Напишите функцию, которая принимает объект а  возвращает вложенный массив вида [[key, value], [key, value]]
+// // Напишите функцию, которая принимает объект а  возвращает вложенный массив вида [[key, value], [key, value]]
 // let obj5 = {
 //     name: 'Alex',
 //     age: 39,
@@ -31,7 +31,7 @@
 // for (let [key, value] of Object.entries(obj5)) {
 //     arrObj5.push([key, value])
 // }
-// функция: (не работает)
+// // функция: (не работает)
 // const objIntoArr = (Object) => {
 //     for (let [key, value] of Object.entries(obj5)) {
 //         arrObj5.push([key, value])
@@ -40,32 +40,33 @@
 
 // console.log(arrObj5)
 
-// Напишите функцию isPlainObject, которая проверяет, является ли элемент именно объектом, а не массивом, null и т.п.
+// // Напишите функцию isPlainObject, которая проверяет, является ли элемент именно объектом, а не массивом, null и т.п.
 
-// let isPlainObject = (v) => Array.isArray(v)===
-// let plain = []
+// // let isPlainObject = (v) => Array.isArray(v)===
+// // let plain = []
 
-// Напишите функцию, которая возвращает новый объект без указанных значений.Т.е в качестве параметров функции вы указываете свойства объекта и на выходе вы получите объект без этих свойств.
-let obj6 = {name: 'Alex', age: 39}
-let funcNoItems = (object, key) => {
-    delete object.key
-}
-funcNoItems(obj6)
-console.log(obj6)
+// // Напишите функцию, которая возвращает новый объект без указанных значений.Т.е в качестве параметров функции вы указываете свойства объекта и на выходе вы получите объект без этих свойств.
+// // let obj6 = {name: 'Alex', age: 39}
+// // let funcNoItems = (object, key) => {
+// //     for key in Object
+// //     delete object.key
+// // }
+// // funcNoItems(obj6)
+// // console.log(obj6)
 
-// Напишите функцию, которая сравнивает два объекта по значениям.
-
-
-
-// Напишите функцию, которая поверхностно находит пересечения объектов и возвращает объект пересечений.
+// // Напишите функцию, которая сравнивает два объекта по значениям.
 
 
 
-// Разобраться что такое  new Date() в js.
+// // Напишите функцию, которая поверхностно находит пересечения объектов и возвращает объект пересечений.
 
- let today = new Date()
- let addZero = (date) => {
-    if (date > 0  && date < 10) {date = '0' + date} //почему не работает функция?
-    }
-//  console.log(`сегодня ${today.getFullYear()}/${addZero(today.getMonth()+1)}/${today.getDate()}`)
-console.log(`сегодня ${today.getFullYear()}/${today.getMonth()+1}/${today.getDate()}`)
+
+
+// // Разобраться что такое  new Date() в js.
+
+//  let today = new Date()
+//  let addZero = (date) => {
+//     if (date > 0  && date < 10) {date = '0' + date} //почему не работает функция?
+//     }
+// //  console.log(`сегодня ${today.getFullYear()}/${addZero(today.getMonth()+1)}/${today.getDate()}`)
+// console.log(`сегодня ${today.getFullYear()}/${today.getMonth()+1}/${today.getDate()}`)
